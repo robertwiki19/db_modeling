@@ -18,5 +18,3 @@ update tip_parc
 	   set type='rez stiintifica',
 	   description='rezervatie apartinand uvt, dep geografie si fmi'
 where type='Stiintifica';	   
-
-select * from tip_parc;
