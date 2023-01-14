@@ -77,3 +77,15 @@ CREATE TABLE IF NOT EXISTS drona_proiect_senzor(
 	FOREIGN KEY(drona_senzori_id) REFERENCES drona_senzori,
 	UNIQUE(proiects_id,drona_senzori_id)
 );
+
+insert into employee (nume, prenume, cnp, adresa, sex) values('Vasile', 'Popescu', '123456789123', 'Timisoara, Timis', 'M');
+insert into employee (nume, prenume, cnp, adresa, sex) values('Viorel', 'Popescu', '123456789124', 'Timisoara, Timis', 'M');
+
+insert into employee (nume, prenume, cnp, adresa, sex)
+values
+	('George', 'Ionescu', '123456789126', 'Timisoara, Timis', 'M'),
+	('Maricica', 'Urdea', '123456789127', 'Timisoara, Timis', 'F'),
+	('Ceapa', 'Vasilica', '123456789128', 'Timisoara, Timis', 'F'),
+	('Ceapa', 'Andrei', '123456789129', 'Timisoara, Timis', 'M')
+	
+select * from employee
